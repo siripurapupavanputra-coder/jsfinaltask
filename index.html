@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h2>🛍 Fake Store</h2>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search products..." />
+  
+  <select id="categoryFilter">
+    <option value="all">All Categories</option>
+  </select>
+
+  <select id="sort">
+    <option value="">Sort by Price</option>
+    <option value="low">Low → High</option>
+    <option value="high">High → Low</option>
+  </select>
+</div>
+
+<h3 id="status">Loading...</h3>
+
+<div id="products"></div>
+
+<script src="index.js"></script>
+</body>
+</html>
